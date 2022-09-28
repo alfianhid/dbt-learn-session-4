@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: trips_data_all
+    schema: trips_data_all
+    tables:
+      - name: green_tripdata_2021-01
+        identifier: green_tripdata_2021-01
+
+      - name: green_tripdata_2021-02
+        identifier: green_tripdata_2021-02
+
+      - name: green_tripdata_2021-03
+        identifier: green_tripdata_2021-03

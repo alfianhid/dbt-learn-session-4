@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: dim_green_tripdata_january_filetered
+    description: The distance of the trip
+    columns:
+      - name: trip_distance
+        tests:
+          - not_null
